@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chatterfinity Twitch OAuth</title>
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+        <script type="text/javascript" src="/javascripts/token.js"></script>
+    </head>
+    <body>
+        <div class="main-box">
+            <div class="note-box">Chatterfinity Twitch Token</div>
+            <form method="GET" action="/submit">
+              <input type="text" name="client_id">
+              <input type="hidden" name="redirect_url" value="http://localhost:3000">
+              <input type="hidden" name="response_type" value="token">
+              <input type="hidden" name="scope" value="chat:read chat:edit channel:moderate whispers:read whispers:edit channel_editor channel:read:subscriptions">
+              <input type="submit" value="Login">
+            </form>
+            <div class="credentials-box"></div>
+        </div>
+    </body>
+</html>
