@@ -20,4 +20,4 @@ npm run start
 * Open browser at <http://localhost:3000>
 
 Enter your client ID from the twitch developer console and click **Login**. Then follow instructions.
-See, ![Example](/screenshot.png)
+<img src="/screenshot.png" alt="example" width="70%" height:="70%"/>
